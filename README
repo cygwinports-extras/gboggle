@@ -3,25 +3,26 @@ gboggle
 GBoggle is a classic boggle game for GTK+ platform.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libgconf2_4-2.24.0-1
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.6-1
-  libintl8-0.17-2
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libgconf2_4-2.26.0-1
+  libglib2.0_0-2.20.1-1
+  libgtk2.0_0-2.16.1-1
+  libintl8-0.17-10
   scowl-6-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gettext-devel-0.17-2
-  gnome-common-2.24.0-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gettext-devel-0.17-10
+  gnome-common-2.26.0-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -53,12 +54,10 @@ Files included in the binary package:
   /usr/share/applications/gboggle.desktop
   /usr/share/dict/british
   /usr/share/dict/hungarian
-  /usr/share/doc/gboggle-1.1.1/ABOUT-NLS
-  /usr/share/doc/gboggle-1.1.1/AUTHORS
-  /usr/share/doc/gboggle-1.1.1/COPYING
-  /usr/share/doc/gboggle-1.1.1/ChangeLog
-  /usr/share/doc/gboggle-1.1.1/INSTALL
-  /usr/share/doc/gboggle-1.1.1/README
+  /usr/share/doc/gboggle/AUTHORS
+  /usr/share/doc/gboggle/COPYING
+  /usr/share/doc/gboggle/ChangeLog
+  /usr/share/doc/gboggle/README
   /usr/share/icons/hicolor/64x64/apps/gboggle.png
   /usr/share/locale/hu/LC_MESSAGES/gboggle.mo
 
@@ -66,8 +65,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.1.1-1 -----
-Initial release for Cygwin.
+----- version 1.1.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
