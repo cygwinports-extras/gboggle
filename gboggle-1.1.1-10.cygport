@@ -1,9 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GTK+ Boggle game"
-HOMEPAGE="http://gboggle.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
-
-DIFF_EXCLUDES="m4"
-
-CYGCONF_ARGS="--without-maemo"
