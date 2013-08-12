@@ -1,0 +1,14 @@
+--- origsrc/gboggle-1.1.4/data/Makefile.am	2010-01-22 14:11:14.000000000 -0600
++++ src/gboggle-1.1.4/data/Makefile.am	2013-08-11 22:38:07.293630900 -0500
+@@ -17,8 +17,8 @@ ICON_PREFIX=$(DESTDIR)$(icondir)
+ 
+ install-data-local:
+ 	mkdir -p $(ICON_PREFIX)/48x48/$(iconsubdir)
+-	$(INSTALL_DATA) gboggle.48.png $(ICON_PREFIX)/48x48/$(iconsubdir)/gboggle.png
++	$(INSTALL_DATA) $(srcdir)/gboggle.48.png $(ICON_PREFIX)/48x48/$(iconsubdir)/gboggle.png
+ 	mkdir -p $(ICON_PREFIX)/64x64/$(iconsubdir)
+-	$(INSTALL_DATA) gboggle.64.png $(ICON_PREFIX)/64x64/$(iconsubdir)/gboggle.png
++	$(INSTALL_DATA) $(srcdir)/gboggle.64.png $(ICON_PREFIX)/64x64/$(iconsubdir)/gboggle.png
+ 	mkdir -p $(ICON_PREFIX)/scalable/$(iconsubdir)
+-	$(INSTALL_DATA) gboggle.svg $(ICON_PREFIX)/scalable/$(iconsubdir)/gboggle.svg
++	$(INSTALL_DATA) $(srcdir)/gboggle.svg $(ICON_PREFIX)/scalable/$(iconsubdir)/gboggle.svg
