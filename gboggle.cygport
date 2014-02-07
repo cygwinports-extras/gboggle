@@ -2,14 +2,17 @@ inherit gnome2
 
 NAME="gboggle"
 VERSION=1.1.4
-RELEASE=1
+RELEASE=2
 CATEGORY="Games"
 SUMMARY="GTK+ Boggle game"
 DESCRIPTION="GBoggle is an implementation of the classic boggle game for
 the GTK+ platform."
 HOMEPAGE="http://gboggle.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
-PATCH_URI="1.1.4-vpath.patch"
+PATCH_URI="
+	1.1.4-vpath.patch
+	1.1.4-Wimplicit-decls.patch
+"
 
 REQUIRES="scowl"
 
